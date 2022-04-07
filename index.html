@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shordcut icon" href="img/skyscraper.png">
+    <script src="js\wow.min.js"></script> 
+    <script src="js/timer.js" defer></script>
+    <title>ЖК Мелодія</title>
+  </head>
+  <body>
+    <div id="progressBar"></div>
+    <div id="progressBarContainer"></div>
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+    <div class="header-con">
+    <header class="header">
+      <div class="navbar container">
+        <a href="./index.html" style="text-decoration:none; " class="logo">
+          <h1 style="color:white;" >Мелодія</h1>
+        </a>
+        <div class="navbar-penal">
+          <nav class="navbar-nav">  
+            <ul class="navbar-menu">
+              <li class="navbar-item">
+                <a href="#own_flat" class="navbar-link">Підберіть<br />квартиру</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#get_flat" class="navbar-link">Забронювати<br />квартиру</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#gallery" class="navbar-link" style="line-height: 200%;">Галерея</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#infr" class="navbar-link" style="line-height: 200%;">Інфраструктура</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#dev" class="navbar-link" style="line-height: 200%;">Девелопер</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#ap" class="navbar-link" style="line-height: 100%;">Інші<br>проекти</a>
+              </li>
+            </ul>
+          </nav>
+     
+          <div class="navbar-contacts">
+            <span class="navbar-text">Зворотній дзвінок:</span>
+            <a href="tel:+380931940960" class="navbar-phone">+380 93 194-09-60</a>
+          </div>  
+          <!-- /.navbar contacts -->
+        </div>
+        <!-- /.navbar-penal -->
+        <button class="menu-button">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </div>
+      <!-- /.navbar -->
+    </header>
+  </div>
+ <br>
+ <br>
+ <br id="own_flat">
+ <br>
+ <br>
+ <br >
+ <br>
+ <br >
+ <br>
+ <h1 style="text-align: center; font-size: 50px;font-weight: bold;"  class="main-title" >ОберIть вашу квартиру </h1>
+    <main class="main container " >
+      <svg class="home-image" viewBox="0 0 734 640" fill="none" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <image id="image0" width="740" height="640" xlink:href="img/home.png" />
+        <path data-floor="02" d="M222 533L442.8 541L512 527.3V549L443.5 568.7L222 557.7V533Z" fill="#3595F6"
+          fill-opacity="0.75" />
+        <path data-floor="03" d="M223 532V507L443.3 510.3L513 507V527L443.7 540L223 532Z" fill="#3595F6"
+          fill-opacity="0.75" />
+        <path data-floor="04" d="M223 506V481H444H513V504L445 511L223 506Z" fill="#3595F6" fill-opacity="0.75" />
+        <path data-floor="05" d="M223 482V457L444.3 453.3L512 460V482H444" fill="#3595F6" fill-opacity="0.75" />
+        <path data-floor="06" d="M223 456V430L444.5 426.7L513 437.7V459L444 452.3L223 456Z" fill="#3595F6"
+          fill-opacity="0.75" />
+        <path data-floor="07" d="M222 429V405.3L443 393L514 416V437.3L443 425L222 429Z" fill="#3595F6"
+          fill-opacity="0.75" />
+        <path data-floor="08" d="M222 407V382L444.2 365.7L514 394.3V415L443.7 393.3L222 407Z" fill="#3595F6"
+          fill-opacity="0.75" />
+        <path data-floor="09" d="M222 382V357L444.5 336.7L514 373.3V394L442 365.3L222 382Z" fill="#3595F6"
+          fill-opacity="0.75" />
+        <path data-floor="10" d="M222 356V332L445 307.3L514 351.3V373L444.7 335L222 356Z" fill="#3595F6"
+          fill-opacity="0.75" />
+        <path data-floor="11" d="M222 331V307L444.5 278.3L514 329.3V350L443.7 307.7L222 331Z" fill="#3595F6"
+          fill-opacity="0.75" />
+        <path data-floor="12" d="M221 307V283L443.3 250L514 309.3V329L444 278.3L221 307Z" fill="#3595F6"
+          fill-opacity="0.75" />
+        <path data-floor="13" d="M222 282V258L443.2 223L513 287V308L444.3 249.7L222 282Z" fill="#3595F6"
+          fill-opacity="0.75" />
+        <path data-floor="14" d="M222 258V233L444.3 195L513 265.3V286L444 222L222 258Z" fill="#3595F6"
+          fill-opacity="0.75" />
+        <path data-floor="15" d="M222 232V207L442.8 163.3L513 242.3V265L444 191.7L222 232Z" fill="#3595F6"
+          fill-opacity="0.75" />
+        <path data-floor="16" d="M223 208V183L443 135L513 220V243L442.3 163.7L223 208Z" fill="#3595F6"
+          fill-opacity="0.75" />
+        <path data-floor="17" d="M222 183V158L441.8 106L513 198.3V221L443.3 134.7L222 183Z" fill="#3595F6"
+          fill-opacity="0.75" />
+        <path data-floor="18" d="M222 158V132L444 75.3L513 177V198L443.7 106.3L222 158Z" fill="#3595F6"
+          fill-opacity="0.75" />
+      </svg>
+      <div class="main-info">
+        <h3 class="main-title">ВиберIть поверх</h3>
+        <div class="counter-group">
+          <button class="counter-button counter-up">
+            <img src="img/arrow.svg" alt="arrow-up" class="counter-arrow counter-arrow-up">
+          </button>
+          <span class="floor-counter counter">02</span>
+          <button class="counter-button counter-down">
+            <img src="img/arrow.svg" alt="arrow-down" class="counter-arrow counter-arrow-down">
+          </button>
+        </div>
+        <!-- /.counter-group -->
+        <button class="button button-primary view-flats" id="get_flat">Дивитись квартири</button>
+      </div>
+    </main>
+    <div class="modal ">
+      <div class="modal-dialog">
+        <button class="modal-close-button">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 2L26 26" stroke="#3596F5" stroke-width="3" />
+            <path d="M26 2L2 26" stroke="#3596F5" stroke-width="3" />
+          </svg>
+        </button>
+        <div class="modal-image">
+          <h3 class="modal-title">Поверх <span class="modal-counter counter">02</span></h3>
+          <svg class="flats" viewBox="0 0 433 408" fill="none" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <image id="image0" width="433" height="408" xlink:href="img/floor.png" />
+            <path data-flat="1" d="M388 81V141H314V148H267.5V131H247V32.5H338.5V16H405V81H388Z" fill="#3595F6"
+              fill-opacity="0.75" />
+            <path data-flat="2" d="M314 148.5H268V200H367.5V205H387.5V141H314V148.5Z" fill="#3595F6"
+              fill-opacity="0.75" />
+            <path data-flat="3" d="M314.192 252.662H268V200H367.916V204.602H388V268H314.192V252.662Z" fill="#3595F6"
+              fill-opacity="0.75" />
+            <path data-flat="4" d="M314 253H268.5V309H295.5V376H340V393H405V328.5H388V268.5H314V253Z" fill="#3595F6"
+              fill-opacity="0.75" />
+            <path data-flat="5" d="M218 394.5V264H247.5V273.5H267.5V310.5H294.5V375H259.5V394.5H218Z" fill="#3595F6"
+              fill-opacity="0.75" />
+            <path data-flat="6" d="M217 394.5V264H187.5V273.5H167.5V310.5H140.5V375H175.5V394.5H217Z" fill="#3595F6"
+              fill-opacity="0.75" />
+            <path data-flat="7" d="M121 252H166.5V309H139.5V376H95V393H30V328.5H47V273.5H121V252Z" fill="#3595F6"
+              fill-opacity="0.75" />
+            <path data-flat="8" d="M119.5 273.5H46V198H167V250.822H119.5V273.5Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-flat="9" d="M124.729 116H46V198H167V145.178H124.729V116Z" fill="#3595F6" fill-opacity="0.75" />
+            <path data-flat="10" d="M46.5 81V115.5H125V144.5H164V131H184.5V32.5H93V16H28V81H46.5Z" fill="#3595F6"
+              fill-opacity="0.75" />
+          </svg>
+        </div>
+        <!-- /.modal-image -->
+        <div class="modal-info">
+          <h3 class="modal-title" id="mt2">ПОШУК КВАРТИРИ</h3>
+          <ul class="flat-list">
+            <li class="flat-item">
+              <a data-flat-link="1" href="#" class="flat-link">
+                кв. 1, 3 кімн. 75,2 м²
+              </a>
+            </li>
+            <li class="flat-item">
+              <a data-flat-link="2" href="#" class="flat-link">
+                кв. 2, 1 кімн. 29,9 м²
+              </a>
+            </li>
+            <li class="flat-item">
+              <a data-flat-link="3" href="#" class="flat-link">
+                кв. 3, 1 кімн. 32,3 м²
+              </a>
+            </li>
+            <li class="flat-item">
+              <a data-flat-link="4" href="#" class="flat-link">
+                кв. 4, 2 кімн. 58,4 м²
+              </a>
+            <li class="flat-item">
+              <a data-flat-link="5" href="#" class="flat-link">
+                кв. 5, 1 кімн. 35,8 м²
+              </a>
+            </li>
+            <li class="flat-item">
+              <a data-flat-link="6" href="#" class="flat-link">
+                кв. 6, 1 кімн. 35,8 м²
+              </a>
+            </li>
+            <li class="flat-item">
+              <a data-flat-link="7" href="#" class="flat-link">
+                кв. 7, 2 кімн. 56,0 м²
+              </a>
+            </li>
+            <li class="flat-item">
+              <a data-flat-link="8" href="#" class="flat-link">
+                кв. 8, 1 кімн. 35,9 м²
+              </a>
+            </li>
+            <li class="flat-item">
+              <a data-flat-link="9" href="#" class="flat-link">
+                кв. 9, 1 кімн. 38,9 м²
+              </a>
+            </li>
+            <li class="flat-item">
+              <a data-flat-link="10" href="#" class="flat-link">
+                кв. 10, 3 кімн. 64,5 м²
+              </a>
+            </li>
+          </ul>
+          <p class="modal-alert">Квартири, відмічені сірим,<br />вже викуплені</p>
+        </div>
+        <!-- /.modal-info -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+
+    <h1 style="text-align: center; font-size: 50px; margin-bottom: 20px; font-weight: bold;"  class="main-title" >Забронювати квартиру</h1>
+    <div class="timer">
+      <p class="timer__text main-title" style="text-align: center; font-weight: bold; padding-right: 10px; padding-left: 10px;">до 1 вересня знижка 10% на всI квартири, встигни забронювати власне затишне житло</p> 
+      <p class="timer__time main-title" style="text-align: center; font-weight: bold; color:orange; font-size: 50px; margin-bottom: 20px; margin-top: 20px;">21:13:33</p>
+    </div>
+    <br>
+            <div class="request-form__content" >
+                <form class="form" >
+                    <div class="form__group">
+                        <input class="input  input--user" style="margin-top: 40px;" type="text" placeholder="Ваше ім'я" name="user_name" id="imya">
+                    </div>
+                    <div class="form__group">
+                        <input class="input  input--phone" type="tel" placeholder="Ваш телефон" name="user_phone">
+                    </div>
+                    <div class="form__group">
+                        <textarea class="input  input--email" type="email" placeholder="Повідомлення" name="user_email"></textarea>
+                    </div>
+                    <a href="#">
+                    <button href="index.html" class="btn  btn--block  btn--orange " type="submit">
+                        <span>Відправити</span>
+                    </button></a>
+                    
+                </form>
+            </div>
+        
+    <br id="gallery">
+            <h1 style="text-align: center; font-size: 50px; font-weight: bold; margin-bottom: 20px;"   class="main-title gall">Галерея</h1>
+
+            <div class="slideshow-container">
+            
+              <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="img/1.jpg" style="width:100%">
+            
+              </div>
+      
+              <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="img/2.jpg" style="width:100%">
+                  
+              </div>
+      
+              <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="img/3.jpg" style="width:100%">
+                 
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="img/4.jpg" style="width:100%">
+            
+            </div>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          </div>
+          
+      <br>
+          <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)" id="infr"></span>
+          </div>
+     
+
+          <h1 style="text-align: center; font-size: 50px; margin-top: -20px; margin-bottom: 65px; font-weight: bold;"   class="main-title">IНФРАСТРУКТУРА </h1>
+        
+          <div class="inf" id="inf_1" style="margin-bottom: 60px;">
+              <div class="text-info" style="margin-right: 30px;"><h1 style="font-size: 40px; max-width: 100%;"   class="main-title">ВЛАСНИЙ ЛАНДШАФТНИЙ ПАРК</h1>
+              <p style="font-size: 21px;">Ландшафтний дизайн створює особливу атмосферу, а зелені насадження формують природні межі різних lounge-зон, тому кожен резидент відпочиватиме, не заважаючи іншим. Простора територія комплексу поступово переходить у величезний парк, що дозволить милуватися мальовничими пейзажами.</p>
+              </div>
+              <div class="img-info"><img src="img/inf1.jpg"></div>
+          </div>
+
+
+          <div class="inf" id="inf_2" style="margin-bottom: 60px;">
+           
+            <div class="img-info"><img src="img/inf2.jpg"></div>
+            <div class="text-info" style="margin-left: 30px;"><h1 style="font-size: 40px; max-width: 100%;"   class="main-title">ЗАКРИТА ТЕРИТОРIЯ</h1>
+              <p style="font-size: 21px;">Ваші спокій та безпека ― наш найвищий пріоритет. Тому територія комплексу буде повністю закрита для сторонніх осіб та<br> під цілодобовою охороною.</p>
+              </div>
+        </div>
+
+        <div class="inf " id="inf_1" style="margin-bottom: 60px;">
+          <div class="text-info" style="margin-right: 30px;"><h1 style="font-size: 40px; max-width: 100%;"   class="main-title">ДИТЯЧА IНФРАСТРУКТУРА</h1>
+          <p style="font-size: 21px;">Діти — це володарі світу та наших сердець. Проте кожному правителю потрібна своя територія. Мелодія має, що запропонувати:
+          <ul style="font-size: 21px;">
+            <li>дитячі майданчики: місця для володінь вистачить усім;</li>
+            <li>дитячий садок: кожен господар повинен вміти товаришувати зі своїми сусідами;</li>
+            <li>школа: володарі мають бути освідченими;</li>
+          </ul>
+         <l style="font-size: 21px;"> А поки ваші дітлахи насолоджуються дитячою інфраструктурою, ви маєте власний час насолодитися тишею та спокоєм.</l>
+          </p>
+          </div>
+          <div class="img-info"><img src="img/inf3.jpg"></div>
+      </div>
+
+      <div class="inf " id="inf_2" style="margin-bottom: 60px;">
+           
+        <div class="img-info"><img src="img/inf4.jpg"></div>
+        <div class="text-info" style="margin-left: 30px;"><h1 style="font-size: 40px; max-width: 100%;"   class="main-title">ПIДЗЕМНI ТА ГОСТЬОВI ПАРКIНГИ</h1>
+          <p style="font-size: 21px;">Лишайте автівку на своєму місці, яке завжди вільне, бо воно ваше. А як бути, якщо брат із дружиною двома машинами приїдуть? Спокійно. Для них теж знайдемо комфортне місце на території гостьового паркінгу.</p>
+          </div>
+    </div>
+    <div class="inf " id="inf_1" style="margin-bottom: 60px;">
+      <div class="text-info" style="margin-right: 30px;"><h1 style="font-size: 40px; max-width: 100%;"   class="main-title">НЕЙМОВIРНИЙ ВИД НА ДНIПРО</h1>
+      <p style="font-size: 21px;">Щодня перед вашими очима розкішна панорама Києва. Увечері центр міста палатиме вогнями для вашої романтичної атмосфери вдома. Ніби в американських фільмах із видами на мегаполіс. А як атмосферно, якщо вимкнете ввечері світло в кімнаті.</p>
+      </div>
+      <div class="img-info"><img src="img/inf5.jpg"></div>
+  </div>
+
+
+
+
+
+  <div class="inf " id="inf_2" style="margin-bottom: 60px;">
+           
+    <div class="img-info"><img src="img/inf6.jpg"></div>
+    <div class="text-info" style="margin-left: 30px;"><h1 style="font-size: 40px; max-width: 100%;"   class="main-title">ВЛАСНИЙ ТРЦ</h1>
+      <p style="font-size: 21px;">Купити новий одяг, випити кави з подругою чи просто розбавити нудьгу ви можете в торговому центрі, який знаходиться прямо біля вашого будинку. Ніяких заторів та проблем з паркуванням. А ввечері можна навіть у домашніх капцях вибігти по снеки до серіалу.</p>
+      </div>
+</div>
+
+
+<div class="inf " id="inf_1" style="margin-bottom: 60px;">
+  <div class="text-info" style="margin-right: 30px;"><h1 style="font-size: 40px; max-width: 100%;"   class="main-title">ВЛАСНI ТЕНIСНИЙ КОРТ<br>
+    ТА ФУТБОЛЬНЕ ПОЛЕ</h1>
+  <p style="font-size: 21px;">Активний спорт у дворі допоможе зняти напругу після важких проєктів або насиченого понеділка. Виходьте зіграти у футбол або у теніс зі своїми друзями чи дітьми. Задоволення від такого проводження часу отримають і дорослі, і малеча.</p>
+  </div>
+  <div class="img-info"><img src="img/inf7.jpg"></div>
+</div>
+
+
+
+<div class="inf" id="inf_2" style="margin-bottom: 60px;">
+           
+  <div class="img-info"><img src="img/inf8.jpg"></div>
+  <div class="text-info" style="margin-left: 30px;"><h1 style="font-size: 40px; max-width: 100%;"   class="main-title">ЗОНА ДЛЯ БАРБЕКЮ</h1>
+    <p style="font-size: 21px;">Влаштуйте в Києві відпочинок у заміському стилі поруч зі своїм будинком. Маєте 1 вихідний на тиждень і не хочете далеко їхати? Влаштуйте сімейну вечірку: овочі на грилі, грінки та апетитні стейки з червоної риби — ваша приємна вечеря вихідного дня.</p>
+    </div>
+</div>
+
+
+<div class="inf" id="inf_1" style="margin-bottom: 150px;">
+  <div class="text-info" style="margin-right: 30px;"><h1 style="font-size: 40px; max-width: 100%;"   class="main-title">ФIТНЕС-ЦЕНТР ТА СПА</h1>
+  <p style="font-size: 21px;">Щоб залишатися успішними та ресурсними, треба дбати про тіло. Ваш спортзал тепер не в іншому кінці міста, а поряд із будинком. Економте 2 години в день, які мали б витратити на дорогу. Ще й почитати книгу встигнете.</p>
+  </div>
+  <div class="img-info"><img src="img/inf9.jpg"></div>
+</div>
+
+
+<h1 style="text-align: center; font-size: 50px; margin-bottom: 0px; margin-right: 20px; margin-left: 20px; margin-bottom: 12px;"   class="main-title "><b>Стандарти сучасного житла — безпека, приватнIсть, задоволення</b> </h1>
+<h2 style="text-align: center; font-size:40px; margin-bottom: 0px; margin-right: 20px; margin-left: 20px; margin-bottom:50px;"   class="main-title">Ми пIдготували для вас будинок найвищого рIвня.</h2>
+
+
+<center>
+<div class="cards">
+
+  <div class="card " style="animation-duration: .5s;">
+    
+    <h2 style="text-align: center; font-size:40px; margin-bottom: 0px; margin-right: 20px; margin-left: 20px; margin-top: -40px;"   class="main-title">ПанорамнI<br> вIкна</h2>
+    <br>
+    <p class="main-title" style="margin-bottom:30px;">Види з панорамних<br> вIкон на ДнIпро</p>
+    <div class="card-img"><img src="img/window.png"></div>
+  </div>
+
+  <div class="card " style="animation-duration: .5s; animation-delay: .5s;">
+    
+    <h2 style="text-align: center; font-size:40px; margin-bottom: 0px; margin-right: 20px; margin-left: 20px;"   class="main-title">Комфорт</h2>
+    <br>
+    <p class="main-title" style="margin-bottom: 30px;" >Покращена шумоIзоляцIя дозволить насолоджуватися тишею, коли у сусIдIв гучна вечIрка</p>
+    <div class="card-img"><img src="img/working-at-home.png"></div>
+  </div>
+  <div class="card " style="animation-duration: .5s; animation-delay: 1s;">
+    
+    <h2 style="text-align: center; font-size:40px; margin-bottom: 0px; margin-right: 20px; margin-left: 20px;"   class="main-title">ВИСОКI СТЕЛI</h2>
+    <br>
+    <p class="main-title" style="margin-bottom: 30px;">СтелI 3 м.<br>БIльше свIтла — краще настрIй</p>
+    <div class="card-img"><img src="img/ceiling-lamp.png"></div>
+  </div>
+  <div class="card " style="animation-duration: .5s; animation-delay: 1.5s;">
+    
+    <h2 style="text-align: center; font-size:40px; margin-bottom: 0px; margin-right: 20px; margin-left: 20px;"   class="main-title">Естетика</h2>
+    <br>
+    <p class="main-title" style="margin-bottom: 30px;">Розробка дизайну створювалась за участю найкращих дизайнерIв</p>
+    <div class="card-img"><img src="img/staircase.png"></div>
+  </div>
+</div>
+<b id="dev" style="position: absolute; margin-top: -130px;"></b>
+</div>
+
+
+  <h1 style="text-align: center; font-size: 50px;  margin-bottom: 60px; font-weight: bold; margin-top: -40px;"   class="main-title">Про девелопера</h1>
+  <div class="block" style="display: flex; color:white;">
+    <h1 style="text-align: center; font-size: 35px; margin-bottom: 0px; margin-right: 20px; margin-left: 20px; margin-top: 60px; font-weight: bold; color: #fff"   class="main-title">BUD Development </h1>
+<h2 style="text-align: center; font-size:30px; margin-bottom: 0px; margin-right: 20px; margin-left: 20px; margin-bottom:20px;  color:white;" >BUD Development — девелопер житлової та комерційної нерухомості з новою житловою філософією. Ми будуємо не просто житло, а створюємо місця сили, які наповнюють змiстом життя кожного жителя.</h2>
+    <div class="div">
+      <p class="main-title" style="color: white; margin-bottom: 5px;" ><b  style="color:orange;font-size: 44px; font-weight: normal;">2012</b><br>
+        рIк заснування
+      </p>
+    </div>
+    <div class="div" style="color: white;">
+      <p class="main-title " style="color: white; margin-bottom: 5px;"> <b style="color:orange;font-size: 44px; font-weight: normal;">8</b>    <br>
+        ЖК введено в експлуатацIю
+      </p>
+    </div>
+    <div class="div">
+      <p class="main-title"  style="color: white; margin-bottom: 20px;" ><b style="color:orange;font-size: 44px; font-weight: normal;">3</b> <br id="ap">
+        IнвестицIйнI проекти
+      </p>
+      
+ </div>
+  
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="6"></feGaussianBlur>
+    </filter>
+  </svg>
+</div>
+
+
+<h1 style="text-align: center; font-size: 50px;  margin-bottom: 30px; font-weight: bold; margin-top: 45px; line-height: 100%; margin-bottom: 60px;"   class="main-title">IншI проекти девелопера </h1>
+
+
+<div class="another-projects" >
+  <div class="img-a-block " data-title="ЖК &#34;Natureland&#34;" style="margin-bottom: 60px;"><img src="img/2n.jpg"></div>
+  <div class="img-a-block " data-title="ЖК &#34;Dream Life&#34;" style="margin-bottom: 60px;"><img src="img/3n.jpg"></div>
+</div>
+
+<footer class="footer">
+      <div class="navbar container">
+        <a href="#" class ="logo">
+          <img src="img/2skyscraper.png" alt="Logo" / style="width:100px">
+        </a>
+        <div class="navbar-contacts">
+          <span class="navbar-text ">Зворотній дзвінок:</span>
+          <a href="tel:+380931940960" class="navbar-phone">+380 93 194-09-60</a>
+        </div>
+        
+        <div class="social">
+          <ul class="social-menu">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <img src="img/facebook.svg" alt="facebook">
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <img src="img/instagram.svg" alt="instagram">
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <img src="img/twitter.svg" alt="twitter">
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <img src="img/youtube.svg" alt="youtube">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <nav class="navbar-nav">
+          <ul class="navbar-menu">
+            <li class="navbar-item">
+              <a href="#own_flat" class="navbar-link ">Підберіть квартиру</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#get_flat" class="navbar-link">Забронювати квартиру</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#gallery" class="navbar-link">Галерея</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#infr" class="navbar-link">Інфраструктура</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#dev" class="navbar-link">Девелопер</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#ap" class="navbar-link">Інші проекти</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- /.navbar -->
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/timer.js"></script>
+    <script>
+              $(window).on("load",function(){
+            $(".loader-container").fadeOut(1500);
+        });
+
+
+        new WOW().init();
+</script> 
+  </body>
+</html>
